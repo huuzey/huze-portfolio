@@ -35,7 +35,7 @@ const Container = ({ me }) => {
           <img
             alt="mine"
             src={me}
-            className="w-[50%] h-[0%] mt-2  rounded-full"
+            className="w-[50%] h-[50%] mt-2  rounded-full"
           />
           <h className={`text-2xl mb-4 mt-4 ml-2`}>
             {" "}
