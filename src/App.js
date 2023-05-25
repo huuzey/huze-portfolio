@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 export const BASE_URL = "https://backend-huze.onrender.com";
 function App() {
-  const { currentColor, mode, themeset } = useSelector((state) => state.global);
+  const { mode, themeset } = useSelector((state) => state.global);
   const [mine, setmine] = useState("");
   useEffect(() => {
     const fethc = async () => {
