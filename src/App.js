@@ -3,7 +3,7 @@ import ThemeSetting from "./components/ThemeSetting";
 import Container from "./components/Container";
 import { useEffect, useState } from "react";
 import axios from "axios";
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://portfolio-backend-rlhn.onrender.com";
 function App() {
   const { currentColor, mode, themeset } = useSelector((state) => state.global);
   const [mine, setmine] = useState("");
