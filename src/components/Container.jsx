@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import mine from "../assets/mine.png";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import { Button } from "@mui/material";
@@ -10,10 +9,14 @@ import ProjectList from "./ProjectList";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { projects } from "../assets/datafiles";
 import title from "../assets/Untitled.png";
+import axios from "axios";
 
-const Container = () => {
+import { BASE_URL } from "../App";
+
+const Container = ({ me }) => {
   const { mode, currentColor } = useSelector((state) => state.global);
   const dispatch = useDispatch();
+  console.log(me);
   return (
     <div className={` w-full flex flex-col   `} style={{ color: currentColor }}>
       {/* image preview  */}
@@ -31,7 +34,7 @@ const Container = () => {
           />
           <img
             alt="mine"
-            src={mine}
+            src={me}
             className="w-[50%] h-[0%] mt-2  rounded-full"
           />
           <h className={`text-2xl mb-4 mt-4 ml-2`}>
