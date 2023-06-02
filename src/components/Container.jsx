@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
@@ -9,12 +9,9 @@ import ProjectList from "./ProjectList";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { projects } from "../assets/datafiles";
 import title from "../assets/Untitled.png";
-import axios from "axios";
 
-import { BASE_URL } from "../App";
-
-const Container = ({ me }) => {
-  const { mode, currentColor } = useSelector((state) => state.global);
+const Container = () => {
+  const { mode, currentColor, me } = useSelector((state) => state.global);
   const dispatch = useDispatch();
   console.log(me);
   return (
@@ -39,25 +36,26 @@ const Container = ({ me }) => {
           />
           <h className={`text-2xl mb-4 mt-4 ml-2`}>
             {" "}
-            Where Code cracking shines.
+            Where Code cracking shines out.
           </h>
           <h className={`text-2xl mb-2 mt-2 ml-2`}>
             {" "}
             Passionated, bright minded and hard worker.
           </h>
           <p className="flex self-start ml-3">
-            A real world solution finding with an experience of more than 4
-            months.
+            A real world solution finding with an experience of more than 6
+            months.An excellent debugging skill of all types.Stand by my self
+            and deliver the given responsibility at least on time or in time .
           </p>
           <p className="flex self-start ml-3">MERN stack specialized:</p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            Fronend : Html , Css ,Javascript, React, Tailwind css, Material Ui,
-            Rtk query.
+            Fronend : Html , Css ,Javascript, React, Tailwind css, Material
+            Ui,Next js , Rtk query.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            Backend : Node js,Express js, Mongoose, Mongo db,Socket.io.
+            Backend : Node js,Express js, Mongoose, Mongo db,Socket.io,Firebase.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
@@ -65,7 +63,11 @@ const Container = ({ me }) => {
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            State Management :Redux toolkit.
+            State Management :Redux toolkit , Recoil.
+          </p>
+          <p className="flex self-start ml-5 gap-2">
+            <ThumbUpOffAltIcon color="success" />
+            Cms :Wordpress.
           </p>
         </div>
         <div className="fixed top-0 right-0 w-1/6 mt-2 ml-2 items-start justify-start h-12">

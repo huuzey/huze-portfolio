@@ -1,23 +1,20 @@
 import { useSelector } from "react-redux";
 import ThemeSetting from "./components/ThemeSetting";
 import Container from "./components/Container";
-import { useEffect, useState } from "react";
-import axios from "axios";
-export const BASE_URL = "https://backend-huze.onrender.com";
+export const BASE_URL = "http://localhost:8000";
 function App() {
   const { mode, themeset } = useSelector((state) => state.global);
-  const [mine, setmine] = useState("");
-  useEffect(() => {
-    const fethc = async () => {
-      try {
-        const { data } = await axios.get(`${BASE_URL}/imageret`);
-        setmine(data[0]?.image);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    fethc();
-  }, []);
+  // useEffect(() => {
+  //   const fethc = async () => {
+  //     try {
+  //       const { data } = await axios.get(`${BASE_URL}/imageret`);
+  //       setmine(data[0]?.image);
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  //   fethc();
+  // }, []);
 
   return (
     <div
@@ -27,7 +24,7 @@ function App() {
       }  `}
     >
       {themeset && <ThemeSetting />}
-      <Container me={mine} />
+      <Container />
     </div>
   );
 }

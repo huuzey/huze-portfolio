@@ -4,6 +4,7 @@ const initialState = {
   currentColor: "#03C9D7",
   themeset: false,
   image: "",
+  me: "https://res.cloudinary.com/dfanahqm3/image/upload/v1685038858/traveler/pvntgf1cu3r8gdjejvdp.png",
 };
 export const globalSlice = createSlice({
   name: "global",

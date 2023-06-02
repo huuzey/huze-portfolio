@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const ProjectList = ({ project }) => {
   const { currentColor } = useSelector((state) => state.global);
-  const { img, url, repo, title } = project;
+  const { img, url, repo, title, desc } = project;
   return (
     <div className="flex  mx-4  mt-4 shadow-2xl  flex-col rounded-lg ">
       <img
@@ -26,7 +26,7 @@ const ProjectList = ({ project }) => {
       </Tooltip>
       <Tooltip title="Go to the github repository" arrow placement="bottom">
         <Link
-          sx={{ marginLeft: "2px", marginBottom: "7px" }}
+          sx={{ marginLeft: "2px", marginBottom: "3px" }}
           underline="none"
           href={repo}
           rel="noopener"
@@ -36,6 +36,9 @@ const ProjectList = ({ project }) => {
           Repository
         </Link>
       </Tooltip>
+      <p className="my-2 mt-2 mb-6" style={{ color: currentColor }}>
+        {desc}
+      </p>
     </div>
   );
 };
