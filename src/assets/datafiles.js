@@ -11,6 +11,29 @@ import imdb from "./imdb.png";
 
 export const projects = [
   {
+    img: car,
+    url: "https://carshowcase-dn360a9h8-huuzey.vercel.app/",
+    title: "Car showcase",
+    repo: "https://github.com/huuzey/Carshowcase",
+    desc: " Typescript and Next js ",
+  },
+  {
+    img: imdb,
+    url: "https://imdb-gold.vercel.app",
+    title: "IMDB clone (movie streaming web)",
+    repo: "https://github.com/huuzey/imdb",
+    desc: "Next js and Mongo db",
+  },
+
+  {
+    img: tweet,
+    url: "https://tweet-ie3boy756-huuzey.vercel.app",
+    title: "Twitter clone",
+    repo: "https://github.com/huuzey/tweet",
+    desc: "Next js and Firebase",
+  },
+
+  {
     img: food,
     url: "https://food-ordering-mc48.onrender.com/home",
     title: "Food ordering app",
@@ -53,31 +76,10 @@ export const projects = [
     desc: "MERN STACK",
   },
   {
-    img: tweet,
-    url: "https://tweet-ie3boy756-huuzey.vercel.app",
-    title: "Twitter clone",
-    repo: "https://github.com/huuzey/tweet",
-    desc: "Next js and Firebase",
-  },
-  {
-    img: imdb,
-    url: "https://imdb-gold.vercel.app",
-    title: "IMDB clone (movie streaming web)",
-    repo: "https://github.com/huuzey/imdb",
-    desc: "Next js and Mongo db",
-  },
-  {
     img: posts,
     url: "https://add-post-lb737q9ag-huuzey.vercel.app",
     title: "Adding your own posts",
     repo: "https://github.com/huuzey/add-post",
     desc: "Next js and Mongo db",
-  },
-  {
-    img: car,
-    url: "https://carshowcase-dn360a9h8-huuzey.vercel.app/",
-    title: "Car showcase",
-    repo: "https://github.com/huuzey/Carshowcase",
-    desc: " Typescript and Next js ",
   },
 ];
