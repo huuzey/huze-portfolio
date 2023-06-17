@@ -6,6 +6,7 @@ import tour from "./tourand travel.png";
 import admin from "./admindashboard.png";
 import tweet from "./tweet.png";
 import posts from "./posts.png";
+import car from "./carshow.png";
 import imdb from "./imdb.png";
 
 export const projects = [
@@ -71,5 +72,12 @@ export const projects = [
     title: "Adding your own posts",
     repo: "https://github.com/huuzey/add-post",
     desc: "Next js and Mongo db",
+  },
+  {
+    img: car,
+    url: "https://carshowcase-dn360a9h8-huuzey.vercel.app/",
+    title: "Car showcase",
+    repo: "https://github.com/huuzey/Carshowcase",
+    desc: " Typescript and Next js ",
   },
 ];
