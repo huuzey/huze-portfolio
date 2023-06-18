@@ -39,8 +39,10 @@ const Container = () => {
             Where Code cracking shines out.
           </h>
           <h className={`text-2xl mb-2 mt-2 ml-2`}>
-            {" "}
-            Passionated, bright minded and hard worker.
+            Passionated, bright minded and hard + smart worker.
+          </h>
+          <h className={`text-2xl mb-2 mt-2 ml-2`}>
+            Going to become an empitome on web app dev't arena!
           </h>
           <p className="flex self-start ml-3">
             A real world solution finding with an experience of more than 6
@@ -50,8 +52,8 @@ const Container = () => {
           <p className="flex self-start ml-3">MERN stack specialized:</p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            Fronend : Html , Css ,Javascript, React, Tailwind css, Material
-            Ui,Next js , Rtk query.
+            Fronend : Html , Css ,Javascript,Typescript, React, Tailwind css,
+            Material Ui,Next js , Rtk query.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
