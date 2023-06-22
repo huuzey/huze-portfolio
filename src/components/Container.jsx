@@ -72,6 +72,13 @@ const Container = () => {
             <ThumbUpOffAltIcon color="success" />
             Cms :Wordpress.
           </p>
+          <p className="flex self-start ml-5 gap-2 mb-3">
+            When you visit the projects for the first time they are very slow to
+            display and fetch data from the database as I use the free plan to
+            host the websites. Some of the websites are not responsive not
+            because unable to make them responsive but I focused on the backend
+            and the logical part of the coding.
+          </p>
         </div>
         <div className="fixed top-0 right-0 w-1/6 mt-2 ml-2 items-start justify-start h-12">
           <Button className="" onClick={() => dispatch(setMode())}>
