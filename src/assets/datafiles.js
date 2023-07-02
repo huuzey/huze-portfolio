@@ -8,6 +8,7 @@ import tweet from "./tweet.png";
 import posts from "./posts.png";
 import car from "./carshow.png";
 import imdb from "./imdb.png";
+import spoty from "./spoty.png";
 
 export const projects = [
   {
@@ -31,6 +32,13 @@ export const projects = [
     title: "Twitter clone",
     repo: "https://github.com/huuzey/tweet",
     desc: "Next js and Firebase",
+  },
+  {
+    img: spoty,
+    url: "https://spotify-clone-xi-jet.vercel.app/",
+    title: "Spotify clone",
+    repo: "https://github.com/huuzey/spotify-cloned",
+    desc: " Typescript,Next js,Tailwind and Supabase",
   },
 
   {
