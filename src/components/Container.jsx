@@ -58,7 +58,7 @@ const Container = () => {
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
             Backend : Node js,Express js, Mongoose, Mongo
-            db,Socket.io,Firebase,RESTful APIs.
+            db,Socket.io,Firebase,Supabase,Postgresql,Mysql,Prisma,RESTful APIs.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
