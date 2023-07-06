@@ -101,7 +101,7 @@ const Container = () => {
       </div>
       {/* footer  */}
       <div className="flex items-center justify-center my-4">
-        <p className=""> Welcome , it's my pleasure to see you there!</p>
+        <p className=""> Welcome , it's my pleasure to see you here!</p>
       </div>
     </div>
   );
