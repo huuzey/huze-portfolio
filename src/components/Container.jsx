@@ -53,7 +53,7 @@ const Container = () => {
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
             Fronend : Html , Css ,Javascript,Typescript, React, Tailwind css,
-            Material Ui,Next js , Rtk query,RESTful API.
+            Radix UI, Material Ui,Next js , Rtk query,RESTful API.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />

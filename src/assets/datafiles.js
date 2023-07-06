@@ -9,6 +9,7 @@ import posts from "./posts.png";
 import car from "./carshow.png";
 import imdb from "./imdb.png";
 import spoty from "./spoty.png";
+import commerce from "./commerce.png";
 
 export const projects = [
   {
@@ -39,6 +40,13 @@ export const projects = [
     title: "Spotify clone",
     repo: "https://github.com/huuzey/spotify-cloned",
     desc: " Typescript,Next js,Tailwind and Supabase",
+  },
+  {
+    img: commerce,
+    url: "https://ecommerce-admin-sigma-blue.vercel.app/",
+    title: "Ecommerce admin ",
+    repo: "https://github.com/huuzey/ecommerce-admin",
+    desc: " Typescript, Next js,Tailwind, Mysql and prisma",
   },
 
   {
