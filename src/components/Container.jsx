@@ -48,11 +48,12 @@ const Container = () => {
             A real world solution finding with an experience of more than 6
             months.An excellent debugging skill of all types.Stand by my self
             and deliver the given responsibility at least on time or in time .
+            Cross-browser design.
           </p>
           <p className="flex self-start ml-3">MERN stack specialized:</p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            Fronend : Html , Css ,Javascript,Typescript, React, Tailwind css,
+            Frontend : Html , Css ,Javascript,Typescript, React, Tailwind css,
             Radix UI, Material Ui,Next js , Rtk query,RESTful API.
           </p>
           <p className="flex self-start ml-5 gap-2">
@@ -72,12 +73,18 @@ const Container = () => {
             <ThumbUpOffAltIcon color="success" />
             Cms :Wordpress.
           </p>
+          <p className="flex self-start ml-5 gap-2">
+            <ThumbUpOffAltIcon color="success" />
+            SEO :Google keyword planner, Google search console, Google
+            analytics, Google trends, Moz, Pagespeed insights, Keyworddit.
+          </p>
           <p className="flex self-start ml-5 gap-2 mb-3">
             When you visit the projects for the first time they are very slow to
             display and fetch data from the database as I use the free plan to
             host the websites. Some of the websites are not responsive not
             because unable to make them responsive but I focused on the backend
-            and the logical part of the coding.
+            and the logical part of the coding, you can see my designing ability
+            on websites which are responsive.
           </p>
         </div>
         <div className="fixed top-0 right-0 w-1/6 mt-2 ml-2 items-start justify-start h-12">
