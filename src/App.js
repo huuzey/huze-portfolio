@@ -19,7 +19,7 @@ function App() {
   return (
     <div
       style={{ minHeight: "100vh" }}
-      className={` w-full  ${
+      className={` w-full   ${
         mode === "dark" ? "bg-[#20232A]" : "bg-[#f1f7f7] "
       }  `}
     >

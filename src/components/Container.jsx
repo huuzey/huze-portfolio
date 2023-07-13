@@ -13,13 +13,10 @@ import title from "../assets/Untitled.png";
 const Container = () => {
   const { mode, currentColor, me } = useSelector((state) => state.global);
   const dispatch = useDispatch();
-  console.log(me);
   return (
-    <div className={` w-full flex flex-col   `} style={{ color: currentColor }}>
+    <div className={`flex flex-col  `} style={{ color: currentColor }}>
       {/* image preview  */}
-      <div className="flex ">
-        <div className="flex md:w-1/6 sm:w-0  "></div>
-
+      <div className="flex ml-4 relative  ">
         <div
           className={`flex flex-col mt-16 md:w-4/6  sm:w-5/6
            items-center   h-full shadow-teal-500 shadow-inner `}
@@ -51,12 +48,12 @@ const Container = () => {
             Cross-browser design.
           </p>
           <p className="flex self-start ml-3">MERN stack specialized:</p>
-          <p className="flex self-start ml-5 gap-2">
+          <p className="flex self-start ml-5 gap-2 max-w-prose">
             <ThumbUpOffAltIcon color="success" />
             Frontend : Html , Css ,Javascript,Typescript, React, Tailwind css,
             Radix UI, Material Ui,Next js , Rtk query,RESTful API.
           </p>
-          <p className="flex self-start ml-5 gap-2">
+          <p className="flex self-start ml-5 gap-2 sm:break-all ">
             <ThumbUpOffAltIcon color="success" />
             Backend : Node js,Express js, Mongoose, Mongo
             db,Socket.io,Firebase,Supabase,Postgresql,Mysql,Prisma,RESTful APIs.
@@ -73,21 +70,8 @@ const Container = () => {
             <ThumbUpOffAltIcon color="success" />
             Cms :Wordpress.
           </p>
-          <p className="flex self-start ml-5 gap-2">
-            <ThumbUpOffAltIcon color="success" />
-            SEO :Google keyword planner, Google search console, Google
-            analytics, Google trends, Moz, Pagespeed insights, Keyworddit.
-          </p>
-          <p className="flex self-start ml-5 gap-2 mb-3">
-            When you visit the projects for the first time they are very slow to
-            display and fetch data from the database as I use the free plan to
-            host the websites. Some of the websites are not responsive not
-            because unable to make them responsive but I focused on the backend
-            and the logical part of the coding, you can see my designing ability
-            on websites which are responsive.
-          </p>
         </div>
-        <div className="fixed top-0 right-0 w-1/6 mt-2 ml-2 items-start justify-start h-12">
+        <div className="fixed top-0 right-0 sm:w-l/6  mt-2 ml-2 items-start justify-start h-12">
           <Button className="" onClick={() => dispatch(setMode())}>
             {mode === "dark" ? (
               <WbSunnyOutlinedIcon sx={{ color: currentColor }} />
