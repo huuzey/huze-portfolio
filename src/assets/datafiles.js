@@ -10,6 +10,7 @@ import car from "./carshow.png";
 import imdb from "./imdb.png";
 import spoty from "./spoty.png";
 import commerce from "./commerce.png";
+import airbnb from "./airbnb.png";
 
 export const projects = [
   {
@@ -33,6 +34,13 @@ export const projects = [
     title: "Twitter clone",
     repo: "https://github.com/huuzey/tweet",
     desc: "Next js and Firebase",
+  },
+  {
+    img: airbnb,
+    url: "https://airbnb-clone-alpha-flax.vercel.app/",
+    title: "Airbnb clone",
+    repo: "https://github.com/huuzey/airbnb-cloned",
+    desc: " Typescript, Next js, prisma, Mongo db and Tailwnd CSS",
   },
   {
     img: spoty,
