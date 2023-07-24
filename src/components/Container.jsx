@@ -51,12 +51,12 @@ const Container = () => {
           <p className="flex self-start ml-3">MERN stack specialized:</p>
           <p className="flex self-start ml-5 gap-2 max-w-prose">
             <ThumbUpOffAltIcon color="success" />
-            Frontend : Html , Css ,Javascript,Typescript, React, Tailwind css,
-            Radix UI, Material Ui,Next js , Rtk query,RESTful API.
+            Frontend : Html , Css ,Javascript,Typescript, React, Tailwind
+            css,Svelte, Radix UI, Material Ui,Next js , Rtk query,RESTful API.
           </p>
           <p className="flex self-start ml-5 gap-2 sm:break-all ">
             <ThumbUpOffAltIcon color="success" />
-            Backend : Node js,Express js, Mongoose, Mongo
+            Backend : Node js,Express js,Sveltekit, Mongoose, Mongo
             db,Socket.io,Firebase,Supabase,Postgresql,Mysql,Prisma,RESTful APIs.
           </p>
           <p className="flex self-start ml-5 gap-2">
