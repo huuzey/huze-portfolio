@@ -11,8 +11,16 @@ import imdb from "./imdb.png";
 import spoty from "./spoty.png";
 import commerce from "./commerce.png";
 import airbnb from "./airbnb.png";
+import thread from "./thread.png";
 
 export const projects = [
+  {
+    img: thread,
+    url: "https://thread-hgyij9q24-huuzey.vercel.app/",
+    title: "Threads Clone",
+    repo: "https://github.com/huuzey/threads",
+    desc: " Typescript, Next js,Tailwind CSS, Mongo DB ",
+  },
   {
     img: car,
     url: "https://carshowcase-dn360a9h8-huuzey.vercel.app/",
