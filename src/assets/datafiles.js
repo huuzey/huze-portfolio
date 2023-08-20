@@ -12,6 +12,7 @@ import spoty from "./spoty.png";
 import commerce from "./commerce.png";
 import airbnb from "./airbnb.png";
 import thread from "./thread.png";
+import auth from "./auth.png";
 
 export const projects = [
   {
@@ -70,6 +71,13 @@ export const projects = [
     url: "https://food-ordering-mc48.onrender.com/home",
     title: "Food ordering app",
     repo: "https://github.com/huuzey/food-order",
+    desc: "MERN STACK",
+  },
+  {
+    img: auth,
+    url: "https://auth-app-vsi6.onrender.com/",
+    title: "Auth app",
+    repo: "https://github.com/huuzey/Auth-mern",
     desc: "MERN STACK",
   },
   {
