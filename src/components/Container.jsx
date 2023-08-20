@@ -76,6 +76,10 @@ const Container = () => {
             SEO :Google keyword planner, Google search console, Google
             analytics, Google trends, Moz, Pagespeed insights, Keyworddit.
           </p>
+          <p className="flex self-start ml-5 gap-2">
+            <ThumbUpOffAltIcon color="success" />
+            Test and Automation:Selenium.
+          </p>
           <p className="flex self-start ml-5 gap-2 sm:break-all mb-3 ">
             <ThumbUpOffAltIcon color="success" />
             When you visit the projects for the first time they are very slow to
