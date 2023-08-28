@@ -78,7 +78,7 @@ const Container = () => {
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
-            Test and Automation:Selenium.
+            Test and Automation:Selenium, Jest,Enzyme.
           </p>
           <p className="flex self-start ml-5 gap-2 sm:break-all mb-3 ">
             <ThumbUpOffAltIcon color="success" />

@@ -13,6 +13,7 @@ import commerce from "./commerce.png";
 import airbnb from "./airbnb.png";
 import thread from "./thread.png";
 import auth from "./auth.png";
+import blog from "./sveblog.png";
 
 export const projects = [
   {
@@ -121,5 +122,12 @@ export const projects = [
     title: "Adding your own posts",
     repo: "https://github.com/huuzey/add-post",
     desc: "Next js and Mongo db",
+  },
+  {
+    img: blog,
+    url: "https://svelteblog-2gtxeaw5r-huuzey.vercel.app/",
+    title: "sveltekit blog",
+    repo: "https://github.com/huuzey/svelteblog",
+    desc: "sveltekit",
   },
 ];
