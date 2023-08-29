@@ -10,10 +10,17 @@ import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { projects } from "../assets/datafiles";
 import title from "../assets/Untitled.png";
 import mee from "../assets/mee.jpg";
+import { useState } from "react";
 
 const Container = () => {
   const { mode, currentColor, me } = useSelector((state) => state.global);
+  const [searchvalue, setSearchvalue] = useState("");
   const dispatch = useDispatch();
+  const searchedresult = searchvalue
+    ? projects.filter((project) =>
+        project.desc.toLowerCase().includes(searchvalue.toLowerCase())
+      )
+    : projects;
   return (
     <div className={`flex flex-col  `} style={{ color: currentColor }}>
       {/* image preview  */}
@@ -51,13 +58,14 @@ const Container = () => {
           <p className="flex self-start ml-3">MERN stack specialized:</p>
           <p className="flex self-start ml-5 gap-2 max-w-prose">
             <ThumbUpOffAltIcon color="success" />
-            Frontend : Html , Css ,Javascript,Typescript, React, Tailwind
-            css,Svelte, Radix UI, Material Ui,Next js , Rtk query,RESTful API.
+            Frontend : Html , Css ,Javascript,Typescript, React, Tailwind css,
+            Svelte, Radix UI, Material Ui, Next js, Rtk query,RESTful API.
           </p>
           <p className="flex self-start ml-5 gap-2 sm:break-all ">
             <ThumbUpOffAltIcon color="success" />
-            Backend : Node js,Express js,Sveltekit, Mongoose, Mongo
-            db,Socket.io,Firebase,Supabase,Postgresql,Mysql,Prisma,RESTful APIs.
+            Backend : Node js,Express js,Sveltekit, Mongoose, Mongo db,
+            Socket.io,Firebase, Supabase, Postgresql,Mysql, Prisma, RESTful
+            APIs.
           </p>
           <p className="flex self-start ml-5 gap-2">
             <ThumbUpOffAltIcon color="success" />
@@ -89,6 +97,7 @@ const Container = () => {
             and the logical part of the coding.
           </p>
         </div>
+
         <div className="fixed top-0 right-0 sm:w-l/6  mt-2 ml-2 items-start justify-start h-12">
           <Button className="" onClick={() => dispatch(setMode())}>
             {mode === "dark" ? (
@@ -103,8 +112,19 @@ const Container = () => {
         </div>
       </div>
       {/* projects  */}
+      <div>
+        {" "}
+        <input
+          style={{ background: currentColor }}
+          className={`ml-4 mt-2 py-1 rounded-full  px-4 outline-none text-black placeholder:text-black w-1/3 `}
+          placeholder="Search for a Language, Framework..."
+          type="text"
+          onChange={(e) => setSearchvalue(e.target.value)}
+          value={searchvalue}
+        />
+      </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  w-full gap-2 h-full mt-4">
-        {projects.map((project, index) => (
+        {searchedresult.map((project, index) => (
           <ProjectList project={project} key={index} />
         ))}
       </div>

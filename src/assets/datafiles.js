@@ -14,6 +14,7 @@ import airbnb from "./airbnb.png";
 import thread from "./thread.png";
 import auth from "./auth.png";
 import blog from "./sveblog.png";
+import svemovie from "./svemovie.png";
 
 export const projects = [
   {
@@ -126,8 +127,15 @@ export const projects = [
   {
     img: blog,
     url: "https://svelteblog-2gtxeaw5r-huuzey.vercel.app/",
-    title: "sveltekit blog",
+    title: "Sveltekit blog",
     repo: "https://github.com/huuzey/svelteblog",
-    desc: "sveltekit",
+    desc: "Sveltekit",
+  },
+  {
+    img: svemovie,
+    url: "https://sveltemovie-cjamqsnj4-huuzey.vercel.app/",
+    title: "Sveltekit Movie Streaming",
+    repo: "https://github.com/huuzey/sveltemovie",
+    desc: "Sveltekit",
   },
 ];
