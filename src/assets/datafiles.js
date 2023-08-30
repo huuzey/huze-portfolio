@@ -15,6 +15,7 @@ import thread from "./thread.png";
 import auth from "./auth.png";
 import blog from "./sveblog.png";
 import svemovie from "./svemovie.png";
+import svetodo from "./svetodo.png";
 
 export const projects = [
   {
@@ -136,6 +137,13 @@ export const projects = [
     url: "https://sveltemovie-cjamqsnj4-huuzey.vercel.app/",
     title: "Sveltekit Movie Streaming",
     repo: "https://github.com/huuzey/sveltemovie",
+    desc: "Sveltekit",
+  },
+  {
+    img: svetodo,
+    url: "https://svelte-todo-5p3chjdke-huuzey.vercel.app/",
+    title: "Sveltekit Todo App",
+    repo: "https://github.com/huuzey/svelte-todo",
     desc: "Sveltekit",
   },
 ];
