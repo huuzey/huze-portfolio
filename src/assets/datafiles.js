@@ -127,10 +127,10 @@ export const projects = [
   },
   {
     img: blog,
-    url: "https://svelteblog-2gtxeaw5r-huuzey.vercel.app/",
+    url: "https://svelteblog-585h7ewt1-huuzey.vercel.app/",
     title: "Sveltekit blog",
     repo: "https://github.com/huuzey/svelteblog",
-    desc: "Sveltekit",
+    desc: "Sveltekit, Mongo DB, Prisma and Tailwind CSS",
   },
   {
     img: svemovie,
