@@ -16,6 +16,7 @@ import auth from "./auth.png";
 import blog from "./sveblog.png";
 import svemovie from "./svemovie.png";
 import svetodo from "./svetodo.png";
+import drive from "./drive.png";
 
 export const projects = [
   {
@@ -60,6 +61,13 @@ export const projects = [
     title: "Spotify clone",
     repo: "https://github.com/huuzey/spotify-cloned",
     desc: " Typescript,Next js,Tailwind and Supabase",
+  },
+  {
+    img: drive,
+    url: "https://google-drive-xi.vercel.app/",
+    title: "Google drive clone",
+    repo: "https://github.com/huuzey/google-drive",
+    desc: " Typescript,Next js,Tailwind and Firebase",
   },
   {
     img: commerce,
