@@ -116,7 +116,7 @@ const Container = () => {
         {" "}
         <input
           style={{ background: currentColor }}
-          className={`ml-4 mt-2 py-1 rounded-full  px-4 outline-none text-black placeholder:text-black sm:w-1/2 lg:w-full `}
+          className={`ml-4 mt-2 py-1 rounded-full  px-4 outline-none text-black placeholder:text-black sm:w-5/6 lg:w-1/2 `}
           placeholder="Search for a Language, Framework..."
           type="text"
           onChange={(e) => setSearchvalue(e.target.value)}
