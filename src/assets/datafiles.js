@@ -17,6 +17,7 @@ import blog from "./sveblog.png";
 import svemovie from "./svemovie.png";
 import svetodo from "./svetodo.png";
 import drive from "./drive.png";
+import nikola from "./nikolas.png";
 
 export const projects = [
   {
@@ -55,13 +56,7 @@ export const projects = [
     repo: "https://github.com/huuzey/airbnb-cloned",
     desc: " Typescript, Next js, prisma, Mongo db and Tailwnd CSS",
   },
-  {
-    img: spoty,
-    url: "https://spotify-clone-xi-jet.vercel.app/",
-    title: "Spotify clone",
-    repo: "https://github.com/huuzey/spotify-cloned",
-    desc: " Typescript,Next js,Tailwind and Supabase",
-  },
+
   {
     img: drive,
     url: "https://google-drive-xi.vercel.app/",
@@ -78,11 +73,11 @@ export const projects = [
   },
 
   {
-    img: food,
-    url: "https://food-ordering-mc48.onrender.com/home",
+    img: nikola,
+    url: "https://react-web-design.onrender.com/",
     title: "Food ordering app",
-    repo: "https://github.com/huuzey/food-order",
-    desc: "MERN STACK",
+    repo: "https://github.com/huuzey/nicolas-upwork",
+    desc: "React JS,Tailwind CSS",
   },
   {
     img: auth,
@@ -98,13 +93,7 @@ export const projects = [
     repo: "https://github.com/huuzey/to-do-list-app",
     desc: "MERN STACK",
   },
-  {
-    img: tour,
-    url: "https://huze-tour-andtravel.onrender.com",
-    title: "Tour and Travel app",
-    repo: "https://github.com/huuzey/travel-and-tour",
-    desc: "MERN STACK",
-  },
+
   {
     img: expense,
     url: "https://expense-tracker-app-ke8o.onrender.com/",
@@ -145,13 +134,6 @@ export const projects = [
     url: "https://sveltemovie-cjamqsnj4-huuzey.vercel.app/",
     title: "Sveltekit Movie Streaming",
     repo: "https://github.com/huuzey/sveltemovie",
-    desc: "Sveltekit",
-  },
-  {
-    img: svetodo,
-    url: "https://svelte-todo-5p3chjdke-huuzey.vercel.app/",
-    title: "Sveltekit Todo App",
-    repo: "https://github.com/huuzey/svelte-todo",
     desc: "Sveltekit",
   },
 ];
