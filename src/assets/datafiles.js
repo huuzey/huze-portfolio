@@ -75,7 +75,7 @@ export const projects = [
   {
     img: nikola,
     url: "https://react-web-design.onrender.com/",
-    title: "Food ordering app",
+    title: "Front-end website",
     repo: "https://github.com/huuzey/nicolas-upwork",
     desc: "React JS,Tailwind CSS",
   },
