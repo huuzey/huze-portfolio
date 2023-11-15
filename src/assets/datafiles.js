@@ -21,6 +21,49 @@ import nikola from "./nikolas.png";
 
 export const projects = [
   {
+    img: nikola,
+    url: "https://react-web-design.onrender.com/",
+    title: "Front-end website",
+    repo: "https://github.com/huuzey/nicolas-upwork",
+    desc: "React JS,Tailwind CSS",
+  },
+  {
+    img: auth,
+    url: "https://auth-app-vsi6.onrender.com/",
+    title: "Auth app",
+    repo: "https://github.com/huuzey/Auth-mern",
+    desc: "MERN STACK",
+  },
+  {
+    img: todo,
+    url: "https://to-do-app-zv53.onrender.com/",
+    title: "To-do list app",
+    repo: "https://github.com/huuzey/to-do-list-app",
+    desc: "MERN STACK",
+  },
+
+  {
+    img: expense,
+    url: "https://expense-tracker-app-ke8o.onrender.com/",
+    title: "Expense tracker app",
+    repo: "https://github.com/huuzey/expense",
+    desc: "MERN STACK",
+  },
+  {
+    img: chat,
+    url: "https://chat-frontend-8hgr.onrender.com",
+    title: "Real time chat app",
+    repo: "https://github.com/huuzey/chat-app",
+    desc: "MERN STACK",
+  },
+  {
+    img: admin,
+    url: "https://admin-frontend-2u02.onrender.com",
+    title: "Admin dashboard",
+    repo: "https://github.com/huuzey/admins-dashboard",
+    desc: "MERN STACK",
+  },
+  {
     img: thread,
     url: "https://thread-hgyij9q24-huuzey.vercel.app/",
     title: "Threads Clone",
@@ -72,49 +115,6 @@ export const projects = [
     desc: " Typescript, Next js,Tailwind, Mysql and prisma",
   },
 
-  {
-    img: nikola,
-    url: "https://react-web-design.onrender.com/",
-    title: "Front-end website",
-    repo: "https://github.com/huuzey/nicolas-upwork",
-    desc: "React JS,Tailwind CSS",
-  },
-  {
-    img: auth,
-    url: "https://auth-app-vsi6.onrender.com/",
-    title: "Auth app",
-    repo: "https://github.com/huuzey/Auth-mern",
-    desc: "MERN STACK",
-  },
-  {
-    img: todo,
-    url: "https://to-do-app-zv53.onrender.com/",
-    title: "To-do list app",
-    repo: "https://github.com/huuzey/to-do-list-app",
-    desc: "MERN STACK",
-  },
-
-  {
-    img: expense,
-    url: "https://expense-tracker-app-ke8o.onrender.com/",
-    title: "Expense tracker app",
-    repo: "https://github.com/huuzey/expense",
-    desc: "MERN STACK",
-  },
-  {
-    img: chat,
-    url: "https://chat-frontend-8hgr.onrender.com",
-    title: "Real time chat app",
-    repo: "https://github.com/huuzey/chat-app",
-    desc: "MERN STACK",
-  },
-  {
-    img: admin,
-    url: "https://admin-frontend-2u02.onrender.com",
-    title: "Admin dashboard",
-    repo: "https://github.com/huuzey/admins-dashboard",
-    desc: "MERN STACK",
-  },
   {
     img: posts,
     url: "https://add-post-lb737q9ag-huuzey.vercel.app",

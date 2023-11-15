@@ -21,7 +21,9 @@ body,
 #root {
   min-height: 100vh;
 }
-
+.realto {
+  background-image: url(/public/asset/AD.jpg);
+}
 body {
   padding: 0;
   margin: 0;
