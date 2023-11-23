@@ -47,87 +47,83 @@ const Container = () => {
             className="w-[50%] h-[50%] mt-2  rounded-full"
           />
 
-          <h
-            className={`text-2xl mb-2 mt-2 ml-2 bg-black rounded-md px-2 py-1`}
-          >
+          <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
             ✅TOP RATED PLUS Professional Developer✅
           </h>
-          <h
-            className={`text-2xl mb-2 mt-2 ml-2 bgb  bg-black rounded-md px-2 py-1`}
-          >
+          <h className={`text-2xl mb-2 mt-2 ml-2 bgb   rounded-md px-2 py-1`}>
             ✅. I offer you the best solutions for your problem as you choose
             the right and comfortable service.
           </h>
-          <p className="flex self-start ml-3 bg-black px-2 py-1 rounded-md mt-6">
+          <p className="flex self-start ml-3  px-2 py-1 rounded-md mt-6">
             ✅.A real-world problem-solving with an experience of more than 2
             year.An excellent debugging skill of all error types.Stand by my
             self and deliver the given responsibility on time.
           </p>
-          <div className={`bg-black  ml-3 rounded-b-lg  `}>
+          <div className={`sm:ml-0  md:ml-28 rounded-b-lg  `}>
             <h className={`text-xl mb-2 mt-2   rounded-md px-2 py-1`}>
               ✅.Frontend Development:
             </h>
 
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Responsive design for all devices.
             </p>
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Cross-browser development.
             </p>
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Elegant color combination and page look structure.
             </p>
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Convenient for SEO ranking.
             </p>
           </div>
-          <div className={`bg-black border-b-2 ml-3 pt-2 rounded-b-lg  `}>
+          <div className={` border-b-2 ml-1 pt-2 rounded-b-lg  `}>
             <h className={`text-xl mb-2 mt-2   rounded-md px-2 py-1`}>
               ✅.Backend Development:
             </h>
 
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Fast forward request and response.
             </p>
-            <p className=" bg-black px-2 py-1 rounded-md mt-3">
+            <p className="  px-2 py-1 rounded-md mt-3">
               ✔️.Both SQL and NO-SQL databases.
             </p>
           </div>
 
-          <p className="flex self-start ml-3 gap-2 max-w-prose bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-3 gap-2 max-w-prose  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             ✅.Frontend technologies: Html , Css ,Javascript,Typescript, React,
             Tailwind css, Svelte, Radix UI, Material Ui, Next js, Rtk
             query,RESTful API.
           </p>
-          <p className="flex self-start ml-5 gap-2 sm:break-all bg-black px-2 py-1 rounded-md mt-2 mb-2 ">
+          <p className="flex self-start ml-5 gap-2 sm:break-all  px-2 py-1 rounded-md mt-2 mb-2 ">
             <ThumbUpOffAltIcon color="success" />
             ✅.Backend technologies: Node js,Express js,Sveltekit, Mongoose,
             Mongo db, Socket.io,Firebase, Supabase, Postgresql,Mysql, Prisma,
             RESTful APIs.
           </p>
-          <p className="flex self-start ml-5 gap-2 bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-5 gap-2  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             ✅.Design: Figma.
           </p>
-          <p className="flex self-start ml-5 gap-2 bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-5 gap-2  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             State Management :Redux toolkit , Recoil.
           </p>
-          <p className="flex self-start ml-5 gap-2 bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-5 gap-2  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             ✅.Cms :Wordpress.
           </p>
-          <p className="flex self-start ml-5 gap-2 bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-5 gap-2  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             ✅.SEO :Google keyword planner, Google search console, Google
             analytics, Google trends, Moz, Pagespeed insights, Keyworddit.
           </p>
-          <p className="flex self-start ml-5 gap-2 bg-black px-2 py-1 rounded-md mt-2 mb-2">
+          <p className="flex self-start ml-5 gap-2  px-2 py-1 rounded-md mt-2 mb-2">
             <ThumbUpOffAltIcon color="success" />
             ✅.Test and Automation:Selenium, Jest,Enzyme.
           </p>
-          <p className="flex self-start ml-5 gap-2 sm:break-all mb-5 bg-black px-2 py-1 rounded-md mt-2 ">
+          <p className="flex self-start ml-5 gap-2 sm:break-all mb-5  px-2 py-1 rounded-md mt-2 ">
             <ThumbUpOffAltIcon color="success" />
             ✅.When you visit the projects for the first time they are very slow
             to display and fetch data from the database as I use the free plan
@@ -142,11 +138,11 @@ const Container = () => {
           data-aos="fade-left"
         >
           <Button className="" onClick={() => dispatch(setMode())}>
-            {/* {mode === "dark" ? (
+            {mode === "dark" ? (
               <WbSunnyOutlinedIcon sx={{ color: currentColor }} />
             ) : (
               <WbSunnyIcon sx={{ color: currentColor }} />
-            )} */}
+            )}
           </Button>
           <Button onClick={() => dispatch(setTheme())}>
             <SettingsIcon sx={{ color: currentColor }} />

@@ -19,7 +19,7 @@ const ProjectList = ({ project }) => {
         className="rounded-md hover:scale-110 my-0.5"
       />
 
-      <div className="bg-black rounded-md px-2 py-1" data-aos="fade-right">
+      <div className=" rounded-md px-2 py-1" data-aos="fade-right">
         <Tooltip title="Go to the website" arrow placement="top">
           <Link
             sx={{ marginLeft: "2px", marginBottom: "2px" }}
