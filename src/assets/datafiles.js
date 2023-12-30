@@ -18,6 +18,7 @@ import svemovie from "./svemovie.png";
 import svetodo from "./svetodo.png";
 import drive from "./drive.png";
 import nikola from "./nikolas.png";
+import chart from "./chart.png";
 
 export const projects = [
   {
@@ -33,6 +34,13 @@ export const projects = [
     title: "To-do list app",
     repo: "https://github.com/huuzey/to-do-list-app",
     desc: "MERN STACK",
+  },
+  {
+    img: chart,
+    url: "https://gabio.vercel.app/",
+    title: "Chart Dashboard",
+    repo: "https://github.com/huuzey/gabi",
+    desc: "Next JS, CanvasJS, Shadcn UI and Tailwind",
   },
 
   {
