@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     img: chart,
-    url: "https://gabio.vercel.app/",
+    url: "https://gabi-ebon.vercel.app/",
     title: "Chart Dashboard",
     repo: "https://github.com/huuzey/gabi",
     desc: "Next JS, CanvasJS, Shadcn UI and Tailwind",
