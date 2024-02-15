@@ -19,7 +19,6 @@ import svetodo from "./svetodo.png";
 import drive from "./drive.png";
 import nikola from "./nikolas.png";
 import chart from "./chart.png";
-import chart from "./chart.png";
 import wealthome from "./wealthome.png";
 
 export const projects = [
