@@ -19,6 +19,8 @@ import svetodo from "./svetodo.png";
 import drive from "./drive.png";
 import nikola from "./nikolas.png";
 import chart from "./chart.png";
+import chart from "./chart.png";
+import wealthome from "./wealthome.png";
 
 export const projects = [
   {
@@ -41,6 +43,13 @@ export const projects = [
     title: "Chart Dashboard",
     repo: "https://github.com/huuzey/gabi",
     desc: "Next JS, CanvasJS, Shadcn UI and Tailwind",
+  },
+  {
+    img: wealthome,
+    url: "https://65ce44d71ee81411ab3c6aeb--melodious-bunny-d44554.netlify.app/",
+    title: "Realestate Website",
+    repo: "https://github.com/huuzey/wealthome",
+    desc: "HTML, CSS , Javascript",
   },
 
   {
