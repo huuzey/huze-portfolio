@@ -9,7 +9,7 @@ import ProjectList from "./ProjectList";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { projects } from "../assets/datafiles";
 import title from "../assets/Untitled.png";
-import mee from "../assets/mee.jpg";
+import mee from "../assets/murid.jpg";
 import { useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -34,18 +34,18 @@ const Container = () => {
           className={`flex flex-col mt-16 md:w-4/6  sm:w-5/6
            items-center   h-full shadow-teal-500 shadow-inner `}
         >
-          <img
+          {/* <img
             data-aos="fade-right"
             alt="title"
             src={title}
             className="w-[50%] h-[50%] mt-4 rounded-full shadow-2xl hover:scale-110"
-          />
-          {/* <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
+          /> */}
+          <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
             ✅MURID HUSSEN
-          </h> */}
-          {/* <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
+          </h>
+          <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
             ✅Full-Stack Web Developer
-          </h> */}
+          </h>
           <img
             data-aos="fade-right"
             alt="mine"
