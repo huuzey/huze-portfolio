@@ -10,6 +10,7 @@ import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { projects } from "../assets/datafiles";
 import title from "../assets/Untitled.png";
 import mee from "../assets/murid.jpg";
+import grad from "../assets/grad.jpg";
 import { useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -41,7 +42,7 @@ const Container = () => {
             className="w-[50%] h-[50%] mt-4 rounded-full shadow-2xl hover:scale-110"
           /> */}
           <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
-            ✅MURID HUSSEN
+            ✅HUZEYFA WELELA
           </h>
           <h className={`text-2xl mb-2 mt-2 ml-2  rounded-md px-2 py-1`}>
             ✅Full-Stack Web Developer
@@ -49,7 +50,7 @@ const Container = () => {
           <img
             data-aos="fade-right"
             alt="mine"
-            src={mee}
+            src={grad}
             className="w-[50%] h-[50%] mt-2  rounded-full"
           />
 
